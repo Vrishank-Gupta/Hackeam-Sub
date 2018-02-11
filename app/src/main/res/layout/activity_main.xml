@@ -24,6 +24,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+
+
        <Button
            android:background="@drawable/roundbutton"
            android:elevation="10dp"
@@ -103,7 +105,8 @@
             android:layout_width="300dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+  />
 
         <Button
             android:background="@drawable/roundbutton"
@@ -111,6 +114,7 @@
             android:text="CLASS 9"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
+            android:layout_margin="10dp"
             android:layout_height="70dp"
             android:layout_gravity="center"/>
 
@@ -118,11 +122,12 @@
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass10"
             android:text="CLASS 10"
+            android:layout_margin="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
-            android:layout_margin="10dp"/>
+        />
 
         <Button
             android:background="@drawable/roundbutton"

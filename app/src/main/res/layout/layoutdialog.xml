@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="200dp"
     android:gravity="center"
     android:background="@color/white"
@@ -44,17 +43,6 @@
         android:layout_below="@id/button"
         android:id="@+id/v1"
         />
-        <!--android:layout_alignBottom="@+id/imageView2"-->
-        <!--android:layout_toEndOf="@+id/imageView2"-->
-
-    <!--<ImageView-->
-        <!--android:id="@+id/imageView2"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentStart="true"-->
-        <!--android:layout_alignParentTop="true"-->
-        <!--android:layout_marginStart="48dp"-->
-        <!--app:srcCompat="@drawable/videoplayer" />-->
 
     <Button
         android:id="@+id/THEORY"
@@ -76,23 +64,6 @@
         android:id="@+id/v2"
         />
 
-    <!--<ImageView-->
-        <!--android:id="@+id/imageView3"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignStart="@+id/imageView2"-->
-        <!--android:layout_below="@+id/button"-->
-        <!--android:layout_marginTop="12dp"-->
-        <!--app:srcCompat="@drawable/theory" />-->
-
-    <!--<ImageView-->
-        <!--android:id="@+id/imageView4"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignStart="@+id/imageView3"-->
-        <!--android:layout_below="@+id/THEORY"-->
-        <!--android:layout_marginTop="14dp"-->
-        <!--app:srcCompat="@drawable/test" />-->
 
     <Button
         android:id="@+id/test"
@@ -103,6 +74,4 @@
         android:background="@color/white"
         android:layout_height="wrap_content"
         android:text="TEST" />
-        <!--android:layout_alignBottom="@+id/imageView4"-->
-        <!--android:layout_toEndOf="@+id/imageView4"-->
 </RelativeLayout>
