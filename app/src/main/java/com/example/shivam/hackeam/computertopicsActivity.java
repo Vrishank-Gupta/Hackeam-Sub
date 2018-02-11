@@ -61,10 +61,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/linear-search/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/linear-search/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/linear-search";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -75,10 +81,15 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+                        String url = "https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -111,6 +122,7 @@ public class computertopicsActivity extends AppCompatActivity {
                     public void onClick(View view) {
                         Intent intent = new Intent(Intent.ACTION_VIEW , Uri.parse("https://www.youtube.com/watch?v=j5uXyPJ0Pew"));
                         computertopicsActivity.this.startActivity(intent);
+
                     }
                 });
 
@@ -118,10 +130,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/binary-search/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/binary-search/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/binary-search";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -132,10 +150,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -171,10 +195,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/bubble-sort/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/bubble-sort/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/bubble-sort";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -185,10 +215,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -224,10 +260,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/selection-sort/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/selection-sort/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/selection-sort";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -238,10 +280,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -276,10 +324,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/insertion-sort/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/insertion-sort/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/insertion-sort";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -290,13 +344,19 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+
+                        String url = "https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
-
                     }
                 });
 
@@ -330,10 +390,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/data-structures/linked-list/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/data-structures/linked-list/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/data-structures/linked-list";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -344,10 +410,17 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+
+                        String url = "https://www.hackerearth.com/practice/data-structures/linked-list/singly-linked-list/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -384,10 +457,16 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/stack-data-structure/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/stack-data-structure/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+                        String url = "https://www.geeksforgeeks.org/stack-data-structure";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -398,10 +477,17 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+
+                        String url = "https://www.hackerearth.com/practice/data-structures/stacks/basics-of-stacks/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -438,10 +524,17 @@ public class computertopicsActivity extends AppCompatActivity {
                 theory.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.geeksforgeeks.org/queue-data-structure/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.geeksforgeeks.org/queue-data-structure/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+
+                        String url = "https://www.geeksforgeeks.org/queue-data-structure";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }
@@ -452,10 +545,17 @@ public class computertopicsActivity extends AppCompatActivity {
                 test.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String url = "https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/";
-                        Intent i = new Intent();
-                        i.setPackage("com.android.chrome");
-                        i.setAction(Intent.ACTION_VIEW);
+//                        String url = "https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems/";
+//                        Intent i = new Intent();
+//                        i.setPackage("com.android.chrome");
+//                        i.setAction(Intent.ACTION_VIEW);
+//                        i.setData(Uri.parse(url));
+//                        startActivity(i);
+
+
+
+                        String url = "https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/practice-problems";
+                        Intent i = new Intent(Intent.ACTION_VIEW);
                         i.setData(Uri.parse(url));
                         startActivity(i);
                     }

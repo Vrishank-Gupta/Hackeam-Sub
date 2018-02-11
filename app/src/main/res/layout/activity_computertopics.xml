@@ -30,6 +30,7 @@
                 android:text="LINEAR SEARCH"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
+                android:textStyle="bold"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
@@ -39,6 +40,8 @@
                 android:background="@drawable/roundbutton"
                 android:id="@+id/btnbinarysearch"
                 android:text="BINARY SEARCH"
+                android:textStyle="bold"
+
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
@@ -50,6 +53,8 @@
                 android:background="@drawable/roundbutton"
                 android:id="@+id/btnbubblesort"
                 android:text="BUBBLE SORT"
+                android:textStyle="bold"
+
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
@@ -64,6 +69,8 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
+                android:textStyle="bold"
+
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
 
@@ -75,6 +82,8 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
+                android:textStyle="bold"
+
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
 
@@ -86,6 +95,8 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
+                android:textStyle="bold"
+
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
 
@@ -97,12 +108,16 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"
                 android:layout_width="300dp"
+                android:textStyle="bold"
+
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
 
             <Button
                 android:background="@drawable/roundbutton"
                 android:id="@+id/btnqueue"
+                android:textStyle="bold"
+
                 android:text="QUEUE"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="center"

@@ -31,6 +31,8 @@
            android:elevation="10dp"
            android:id="@+id/btnclass1"
            android:text="CLASS 1"
+           android:textStyle="bold"
+
            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
            android:layout_width="300dp"
            android:layout_height="70dp"
@@ -40,6 +42,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass2"
+            android:textStyle="bold"
+
             android:text="CLASS 2"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -51,6 +55,8 @@
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass3"
             android:text="CLASS 3"
+            android:textStyle="bold"
+
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
             android:layout_height="70dp"
@@ -60,6 +66,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass4"
+            android:textStyle="bold"
+
             android:text="CLASS 4"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -70,6 +78,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass5"
+            android:textStyle="bold"
+
             android:text="CLASS 5"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -80,6 +90,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass6"
+            android:textStyle="bold"
+
             android:text="CLASS 6"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -90,6 +102,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass7"
+            android:textStyle="bold"
+
             android:text="CLASS 7"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -100,6 +114,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass8"
+            android:textStyle="bold"
+
             android:text="CLASS 8"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -111,6 +127,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass9"
+            android:textStyle="bold"
+
             android:text="CLASS 9"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -121,6 +139,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass10"
+            android:textStyle="bold"
+
             android:text="CLASS 10"
             android:layout_margin="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
@@ -132,6 +152,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass11"
+            android:textStyle="bold"
+
             android:text="CLASS 11"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
@@ -142,6 +164,8 @@
         <Button
             android:background="@drawable/roundbutton"
             android:id="@+id/btnclass12"
+            android:textStyle="bold"
+
             android:text="CLASS 12"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="300dp"
